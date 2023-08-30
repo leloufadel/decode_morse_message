@@ -12,15 +12,15 @@ MORSE_CODE = {
     MORSE_CODE[morse_char]
   end
   
-#   def decode_word(morse_word)
-#     morse_chars = morse_word.split(" ")
-#     decoded_word = ""
-#     morse_chars.each do |morse_char|
-#       decoded_char = decode_char(morse_char)
-#       decoded_word += decoded_char
-#     end
-#     decoded_word
-#   end
+  def decode_word(morse_word)
+    morse_chars = morse_word.split(" ")
+    decoded_word = ""
+    morse_chars.each do |morse_char|
+      decoded_char = decode_char(morse_char)
+      decoded_word += decoded_char
+    end
+    decoded_word
+  end
   
 #   def decode_message(morse_message)
 #     morse_words = morse_message.split("   ") # Three spaces indicate word separation
