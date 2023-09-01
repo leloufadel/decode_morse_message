@@ -4,10 +4,10 @@ module Enumerable
     truea
   end
 
-    def any?(&block)
-      each { |item| return true if block.call(item) }
-      false
-    end
+  def any?(&block)
+    each { |item| return true if block.call(item) }
+    false
+  end
 
   def filter(&block)
     result = []
