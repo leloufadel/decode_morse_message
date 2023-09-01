@@ -1,6 +1,6 @@
-require_relative 'enumerable.rb'
+require_relative 'enumerable'
 
-class MyList
+class List
   include Enumerable
 
   def initialize(*elements)
