@@ -1,14 +1,13 @@
 module Enumerable
- 
   def all?(&block)
     each { |item| return false unless block.call(item) }
-    true
+    truea
   end
 
-#   def any?(&block)
-#     each { |item| return true if block.call(item) }
-#     false
-#   end
+  #   def any?(&block)
+  #     each { |item| return true if block.call(item) }
+  #     false
+  #   end
 
   def filter(&block)
     result = []
