@@ -87,7 +87,7 @@ To run the project, execute the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Lala Aicha El Vadel**
 
 - GitHub: [Leloufadel](https://github.com/leloufadel)
 - LinkedIn: [Lala Aicha ](https://www.linkedin.com/in/lalaaicha-elvadel/)
